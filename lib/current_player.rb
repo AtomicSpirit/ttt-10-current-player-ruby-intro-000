@@ -7,3 +7,6 @@ if turns == "X" || turns == "O"
 end
 return counter
 end
+
+def current_player
+  
