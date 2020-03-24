@@ -9,8 +9,7 @@ return counter
 end
 
 def current_player
-  r = turn_count % 2
-  if r == 0
+  if counter.even?
     return "X"
   else
     return "O"
