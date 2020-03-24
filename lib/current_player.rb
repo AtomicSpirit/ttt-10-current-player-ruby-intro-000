@@ -9,7 +9,7 @@ return counter
 end
 
 def current_player
-  r = counter % 2
+  r = turn_count % 2
   if r == 0
     return "X"
   else
